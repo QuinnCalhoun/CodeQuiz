@@ -1,0 +1,46 @@
+<!-- In this app, users are given a quiz on different coding bits. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quizzulous</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./jquery.js"></script>
+</head>
+
+<body class="background">
+    <nav class="nav-bar">
+        <aside class="nav-item">View High Scores</aside>
+        <h1 class="nav-item">Quizzulous</h1>
+        <div class="nav-item">
+            <p>
+                Time left:
+
+                <span class="timer">0</span>
+            </p>
+        </div>
+    </nav>
+    <article class="content-box">
+        <h2 class="content-item">Quizzulous Coding Challenge!</h2>
+        <p class="content-item">In this challenge, you will be tasked with answering
+            several multiple choice questions.<br>
+            Easy!<br>
+            Just watch out, go too slow and
+            you'll run out of time!
+        </p>
+        <!-- I didnt have time to implement the difficulty selector -->
+        <!-- <select name="Difficulty" id="difficultySelect">
+            <option selected disabled>Choose a Difficulty</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select> -->
+        <input class="content-item" type="submit" value="Begin!">
+    </article>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>

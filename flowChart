@@ -1,0 +1,26 @@
+In this app, users are given a quiz on different parts of coding. 
+
+    Intro Page
+        titleBar
+            highscoresLink
+                Has to use local storage, should be easy enough to write. if (localhighscores) -> createElement highscoresbox -> show to user
+            title
+                i just like titles even though it doesnt ask for one explicitly
+            timer
+                Countdown timer that starts when you start the quiz. Should add time per question, 15 seconds per question. 
+                Instead of allowing the user to choose question amount, I am going to have 3 difficulties with more questions that allow less time.
+                    Easy-5 questions; 15 seconds per
+                    Medium-8 questions; 13 seconds per; more difficult questions
+                    Hard-10 questions; 10 seconds per; higher penalty for wrong Answers
+                This allows me to make the function more simple, and lets me hard code certain values into the page. 
+        content-box
+            Question
+                Use java to swap the question text out on correct answer input. Can probably get the questions off the internet all ready to go.
+            Answers
+                I could pre-set the answers, it looks like in the reference gif that they put the numbers (1:, 2:, etc) inside the input. 
+                I would prefer to have the answers be randomly assigned so that each quiz has the answers in a different order to reduce the ability to memorize patterns over information.
+            alert message
+                a simple message that displays either correct or incorrect to the user.
+            
+
+            
